@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link href="style.css" rel="stylesheet">
+  <title>Считалка</title>
+</head>
+
+<body>
+  <main>
+    <div class="expression">
+      <span id="num1"></span>&nbsp;+
+      <span id="num2"></span>&nbsp;=
+      <span id="sum">?</span>
+    </div>
+    <canvas class="canvas" width="875" height="200"></canvas>
+    <input class="addend_1" type="text" autofocus>
+    <input class="addend_2" type="text" style="display:none">
+
+    <img class="ruler" src="sprite.png" width="875" height="83">
+    <button class="start" type="button">Новый пример</button>
+  </main>
+  <script src="main.js"></script>
+</body>
+
+</html>

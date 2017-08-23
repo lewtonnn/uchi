@@ -1,0 +1,38 @@
+main {
+  width: 875px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.expression {
+  font-size: 50px;
+  margin-top: 50px;
+}
+
+.expression span {
+  padding: 0 10px;
+}
+
+
+.start {
+  display: block;
+  margin: 20px 400px;
+}
+
+.lines {
+  margin-top: 100px;
+}
+
+input {
+  display: inline-block;
+  border: 1px solid grey;
+  border-radius: 5px;
+  box-shadow: none;
+  text-align: center;
+  font-size: 25px;
+  width: 35px;
+}
+
+.correct {
+  background-color: green;
+}
