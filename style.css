@@ -1,38 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+}
+
 main {
-  width: 875px;
   margin: 0 auto;
+  width: 875px;
   text-align: center;
 }
 
-.expression {
-  font-size: 50px;
+#expression {
   margin-top: 50px;
+  font-size: 50px;
 }
 
-.expression span {
-  padding: 0 10px;
-}
-
-
-.start {
-  display: block;
-  margin: 20px 400px;
-}
-
-.lines {
-  margin-top: 100px;
+#expression span {
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 input {
-  display: inline-block;
+  position: absolute;
+  width: 25px;
   border: 1px solid grey;
   border-radius: 5px;
   box-shadow: none;
   text-align: center;
   font-size: 25px;
-  width: 35px;
 }
 
-.correct {
-  background-color: green;
+#sum {
+  width: 60px;
+  height: 50px;
+  border: none;
+  color: #000;
+  font-size: 50px;
+}
+
+#ruler {
+  display: block;
+  margin: -22px auto 0 auto;
+}
+
+#new {
+  display: block;
+  margin: 20px auto 0 auto;
+}
+
+#canvas-wrapper {
+  position: relative;
+  width: 875px;
+  margin: 0 auto;
 }

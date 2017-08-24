@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -9,17 +9,16 @@
 
 <body>
   <main>
-    <div class="expression">
-      <span id="num1"></span>&nbsp;+
-      <span id="num2"></span>&nbsp;=
-      <span id="sum">?</span>
+    <div id="expression">
+      <span id="num1"></span>+<span id="num2"></span>=<input type="text" id="sum" placeholder="?" autocomplete="off" readonly="readonly">
     </div>
-    <canvas class="canvas" width="875" height="200"></canvas>
-    <input class="addend_1" type="text" autofocus>
-    <input class="addend_2" type="text" style="display:none">
-
-    <img class="ruler" src="sprite.png" width="875" height="83">
-    <button class="start" type="button">Новый пример</button>
+    <div id="canvas-wrapper">
+      <input id="addend_1" type="text" autocomplete="off" autofocus>
+      <input id="addend_2" type="text" autocomplete="off" style="display:none">
+      <canvas id="canvas" width="875" height="200"></canvas>
+    </div>
+    <img id="ruler" src="sprite.png" width="875" height="83" alt="ruler">
+    <button id="new" type="button">Новый пример</button>
   </main>
   <script src="main.js"></script>
 </body>
